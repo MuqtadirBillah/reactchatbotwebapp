@@ -14,16 +14,13 @@ function Chat(){
     var [messages, setMessages] = useState([]);
     var [botRes, setBotRes] = useState("");
     var [style, setStyle] = useState("");
-    const [visible, setVisible] = useState(true) 
+    const [visible, setVisible] = useState("no");
 
     var  i = ()=>{
         return(
             <i class="far fa-user"></i>
         );
     };
-
-    
-    setInterval(onLoadChat, 1000);
 
 
     function olick(){
@@ -87,9 +84,16 @@ function Chat(){
         // audioTune.play();
     }, [])
 
+    useEffect(() => {
+        // Run! Like go get some data from an API.
+        onLoadChat()
+      }, [visible]);
     
+    
+
     function onLoadChat(){
         setBut("show");
+        audioTune.play();
     }
 
 
