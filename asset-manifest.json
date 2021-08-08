@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactchatbotwebapp/static/css/main.682dc114.chunk.css",
+    "main.css": "/reactchatbotwebapp/static/css/main.e7f62d35.chunk.css",
     "main.js": "/reactchatbotwebapp/static/js/main.73053f2d.chunk.js",
     "main.js.map": "/reactchatbotwebapp/static/js/main.73053f2d.chunk.js.map",
     "runtime-main.js": "/reactchatbotwebapp/static/js/runtime-main.540017dd.js",
@@ -10,7 +10,7 @@
     "static/js/3.5522b066.chunk.js": "/reactchatbotwebapp/static/js/3.5522b066.chunk.js",
     "static/js/3.5522b066.chunk.js.map": "/reactchatbotwebapp/static/js/3.5522b066.chunk.js.map",
     "index.html": "/reactchatbotwebapp/index.html",
-    "static/css/main.682dc114.chunk.css.map": "/reactchatbotwebapp/static/css/main.682dc114.chunk.css.map",
+    "static/css/main.e7f62d35.chunk.css.map": "/reactchatbotwebapp/static/css/main.e7f62d35.chunk.css.map",
     "static/js/2.4c64658a.chunk.js.LICENSE.txt": "/reactchatbotwebapp/static/js/2.4c64658a.chunk.js.LICENSE.txt",
     "static/media/Alii.9873450c.jfif": "/reactchatbotwebapp/static/media/Alii.9873450c.jfif",
     "static/media/bereal.db8856b4.png": "/reactchatbotwebapp/static/media/bereal.db8856b4.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.540017dd.js",
     "static/js/2.4c64658a.chunk.js",
-    "static/css/main.682dc114.chunk.css",
+    "static/css/main.e7f62d35.chunk.css",
     "static/js/main.73053f2d.chunk.js"
   ]
 }
