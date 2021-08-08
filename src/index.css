@@ -276,12 +276,16 @@ input:focus{
   width: 80%;
   border: 2px solid rgb(199, 199, 199);
   border-radius: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .messageSend{
   width:20%;
   background-color: #1b63ac;
   color: white;
   border: 2px solid #1b63ac;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .aLeft{
   text-align: left;
@@ -378,12 +382,21 @@ input:focus{
     bottom: 0;
     right: 0;
     border: 1px solid red;
+    background-color: #e2e2e2;
     margin-right: 15px;
     color: black;
     border: 2px solid white;
     border-bottom: 0px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+  }
+  .messageIn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .messageSend{
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 
@@ -455,12 +468,20 @@ input:focus{
     right: 0;
     border: 1px solid red;
     margin-right: 15px;
-    background-color: white;
+    background-color: #e2e2e2;
     color: black;
     border: 2px solid white;
     border-bottom: 0px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+  }
+  .messageIn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .messageSend{
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -502,9 +523,18 @@ input:focus{
     margin-right: 15px;
     color: black;
     border: 2px solid white;
+    background-color: #e2e2e2;
     border-bottom: 0px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+  }
+  .messageIn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .messageSend{
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 
@@ -547,9 +577,18 @@ input:focus{
     margin-left: 0px;
     color: black;
     border: 2px solid white;
+    background-color: #e2e2e2;
     border-bottom: 0px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+  }
+  .messageIn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .messageSend{
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 /* @media only screen and (max-width: 12000px) {
