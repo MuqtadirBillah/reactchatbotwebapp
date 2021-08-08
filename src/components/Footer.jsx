@@ -16,7 +16,7 @@ function Footer(){
                     <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="fContact">
                             <h3>Contact Us</h3>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.4638905171955!2d67.08121581498548!3d24.882153550515714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33eb5cd03b92b%3A0xae6a9089183bced0!2sDigitrends%20Pvt%20Ltd!5e0!3m2!1sen!2s!4v1627393297186!5m2!1sen!2s" width="100%" height="300" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.228855289766!2d67.08160671483952!3d24.924272484023845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f37c01335e7%3A0xefe73798fd6e59eb!2sIqra%20University%20Gulshan%20Campus!5e0!3m2!1sen!2s!4v1628451737678!5m2!1sen!2s" width="100%" height="300" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
                             <div className="container-fluid">
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-sm-12">

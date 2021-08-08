@@ -47,7 +47,8 @@ function Chat(){
         messages.push({
             user: "User",
             message: message,
-            align: "aLeft"
+            align: "aLeft",
+            style: "userStyle"
         });
         // axios.post('http://localhost:5000/bot', {message}
         axios.post('https://chatbot-flask-api-web-app.herokuapp.com/response', {message}
@@ -56,7 +57,8 @@ function Chat(){
             messages.push({
                 user: "Bot",
                 message: response.data,
-                align: "aRight"
+                align: "aRight",
+                style: "botStyle"
             });
             console.log(messages);
             console.log(response.data);
@@ -75,12 +77,12 @@ function Chat(){
             <div className="chatBox" className={but}>
                 <div className="messages" display="none">
 
-                    {messages.map(({user, message, align})=>{     
+                    {messages.map(({user, message, align, style, index})=>{     
                         console.log(user+"asdsad"+message);   
                         return(                
-                            <>
-                                <p className={align}><b>{user}</b>:<br /><span className="botStyle">{message} {style}</span></p>
-                            </>
+                            <div className={align}>
+                                <h6>{user}:</h6><div className="chatDiv"><p className={style}><span>{message}</span></p></div>
+                            </div>
                         );
                     })}
                     <p>{style}</p>
@@ -89,7 +91,7 @@ function Chat(){
                 </div>
                 
                 <div className="messageControls">
-                    <input type="text" onChange={(e)=>{setMessage(e.target.value)}} id="inn" className="messageIn" placeholder="write you message" value={message} />
+                    <input type="text" onKeyPress={(event)=>event.key==="Enter" ? post() : console.log("Enter not pressed")} onChange={(e)=>{setMessage(e.target.value)}} id="inn" className="messageIn" placeholder="write you message" value={message} />
                     <button onClick={post} className="messageSend" a href="#inn">Send</button>
                 </div>
             </div>
