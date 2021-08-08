@@ -1,6 +1,6 @@
 import React from "react";
 import Muqtadir from "../images/me.png";
-import Ali from "../images/ali.jfif";
+import Ali from "../images/Alii.jfif";
 
 function Team(){
     return(

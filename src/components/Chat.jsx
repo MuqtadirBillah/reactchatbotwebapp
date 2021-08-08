@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
+import ScrollToBottom from 'react-scroll-to-bottom';
 import axios from "axios";
+import help from "../images/help.png";
+import sound from "../audio/noti.mp3";
 
 function Chat(){
 
@@ -11,12 +14,16 @@ function Chat(){
     var [messages, setMessages] = useState([]);
     var [botRes, setBotRes] = useState("");
     var [style, setStyle] = useState("");
+    const [visible, setVisible] = useState(true) 
 
     var  i = ()=>{
         return(
             <i class="far fa-user"></i>
         );
     };
+
+    
+    setInterval(onLoadChat, 1000);
 
 
     function olick(){
@@ -70,12 +77,29 @@ function Chat(){
         });
     }
 
+    const audioTune = new Audio(sound);
+    
+    // variable to play audio in loop
+    const [playInLoop, setPlayInLoop] = useState(false);
+    // load audio file on component load
+    useEffect(() => {
+        audioTune.load();
+        // audioTune.play();
+    }, [])
+
+    
+    function onLoadChat(){
+        setBut("show");
+    }
+
 
     return(
         <div className="chat">
+            
             <button onClick={olick} className="chatColl">Chat</button>
             <div className="chatBox" className={but}>
                 <div className="messages" display="none">
+                    <img src={help} style={{textAlign:"center", width: "200px", height: "200px"}} alt="" />
 
                     {messages.map(({user, message, align, style, index})=>{     
                         console.log(user+"asdsad"+message);   
@@ -85,9 +109,6 @@ function Chat(){
                             </div>
                         );
                     })}
-                    <p>{style}</p>
-                    {/* <p className=" " className={al}>{i}{user}: sadsadsad</p>
-                    <p className=" " className="aRight">Bot: sadsasdfsdfde</p> */}
                 </div>
                 
                 <div className="messageControls">
