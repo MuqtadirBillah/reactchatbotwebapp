@@ -1,30 +1,32 @@
 {
   "files": {
     "main.css": "/reactchatbotwebapp/static/css/main.682dc114.chunk.css",
-    "main.js": "/reactchatbotwebapp/static/js/main.73ac9113.chunk.js",
-    "main.js.map": "/reactchatbotwebapp/static/js/main.73ac9113.chunk.js.map",
-    "runtime-main.js": "/reactchatbotwebapp/static/js/runtime-main.2826bd88.js",
-    "runtime-main.js.map": "/reactchatbotwebapp/static/js/runtime-main.2826bd88.js.map",
-    "static/js/2.c32849a1.chunk.js": "/reactchatbotwebapp/static/js/2.c32849a1.chunk.js",
-    "static/js/2.c32849a1.chunk.js.map": "/reactchatbotwebapp/static/js/2.c32849a1.chunk.js.map",
-    "static/js/3.4cbd19c7.chunk.js": "/reactchatbotwebapp/static/js/3.4cbd19c7.chunk.js",
-    "static/js/3.4cbd19c7.chunk.js.map": "/reactchatbotwebapp/static/js/3.4cbd19c7.chunk.js.map",
+    "main.js": "/reactchatbotwebapp/static/js/main.2a4bc8b5.chunk.js",
+    "main.js.map": "/reactchatbotwebapp/static/js/main.2a4bc8b5.chunk.js.map",
+    "runtime-main.js": "/reactchatbotwebapp/static/js/runtime-main.540017dd.js",
+    "runtime-main.js.map": "/reactchatbotwebapp/static/js/runtime-main.540017dd.js.map",
+    "static/js/2.4c64658a.chunk.js": "/reactchatbotwebapp/static/js/2.4c64658a.chunk.js",
+    "static/js/2.4c64658a.chunk.js.map": "/reactchatbotwebapp/static/js/2.4c64658a.chunk.js.map",
+    "static/js/3.5522b066.chunk.js": "/reactchatbotwebapp/static/js/3.5522b066.chunk.js",
+    "static/js/3.5522b066.chunk.js.map": "/reactchatbotwebapp/static/js/3.5522b066.chunk.js.map",
     "index.html": "/reactchatbotwebapp/index.html",
     "static/css/main.682dc114.chunk.css.map": "/reactchatbotwebapp/static/css/main.682dc114.chunk.css.map",
-    "static/js/2.c32849a1.chunk.js.LICENSE.txt": "/reactchatbotwebapp/static/js/2.c32849a1.chunk.js.LICENSE.txt",
-    "static/media/ali.128699d5.jfif": "/reactchatbotwebapp/static/media/ali.128699d5.jfif",
+    "static/js/2.4c64658a.chunk.js.LICENSE.txt": "/reactchatbotwebapp/static/js/2.4c64658a.chunk.js.LICENSE.txt",
+    "static/media/Alii.9873450c.jfif": "/reactchatbotwebapp/static/media/Alii.9873450c.jfif",
     "static/media/bereal.db8856b4.png": "/reactchatbotwebapp/static/media/bereal.db8856b4.png",
+    "static/media/help.2e4bf21f.png": "/reactchatbotwebapp/static/media/help.2e4bf21f.png",
     "static/media/introImg.85b729ba.png": "/reactchatbotwebapp/static/media/introImg.85b729ba.png",
     "static/media/logo.65ddb4c2.png": "/reactchatbotwebapp/static/media/logo.65ddb4c2.png",
     "static/media/logo.6ce24c58.svg": "/reactchatbotwebapp/static/media/logo.6ce24c58.svg",
     "static/media/me.d1605905.png": "/reactchatbotwebapp/static/media/me.d1605905.png",
+    "static/media/noti.14c007e2.mp3": "/reactchatbotwebapp/static/media/noti.14c007e2.mp3",
     "static/media/quick.1c89ea4e.png": "/reactchatbotwebapp/static/media/quick.1c89ea4e.png",
     "static/media/software.76504370.png": "/reactchatbotwebapp/static/media/software.76504370.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2826bd88.js",
-    "static/js/2.c32849a1.chunk.js",
+    "static/js/runtime-main.540017dd.js",
+    "static/js/2.4c64658a.chunk.js",
     "static/css/main.682dc114.chunk.css",
-    "static/js/main.73ac9113.chunk.js"
+    "static/js/main.2a4bc8b5.chunk.js"
   ]
 }
