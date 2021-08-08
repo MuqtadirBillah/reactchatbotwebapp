@@ -1,0 +1,587 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  /* font-family: 'Oswald', sans-serif; */
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+input:focus{
+  outline: none;
+}
+/* .user{
+  background-color: #1b63ac;
+  color: white;
+  text-align: left;
+  padding: 5px 5px;
+} */
+.bot{
+  background-color: #90c7fd;
+  color: black;
+  text-align: right;
+  padding: 5px 5px;
+  padding-right: 10px;
+}
+
+/* main div */
+
+.mainContent{
+  overflow: scroll;
+  height: 95vh;
+}
+
+/* header design */
+.mainNav{
+  background-color: #1b63ac;
+  padding-left: 100px;
+  padding-right: 100px;
+  /* max-height: 5vh; */
+}
+.mainNav .navbar-brand-name{
+  padding-left: 20px;
+  font-size: x-large;
+  font-weight: 400;
+}
+.navbar-nav{
+  margin-left: auto;
+}
+
+
+/* crousel styling */
+.mainCrousel{
+}
+.carousel{
+  margin: 20px 100px;
+}
+.carousel-indicators{
+}
+
+/* Intro styling */
+
+.intro{
+  min-height: 500px;
+  background-color: white;
+  color: black;
+}
+.introText{
+  padding: 50px 0px;
+  text-align: left;
+  color: rgb(19, 19, 19);
+  /* vertical-align: middle; */
+  padding-top: 100px;
+}
+.intro h1{
+  color: #1b63ac;
+  font-weight: 900;
+  font-size: 3.5rem;  
+  text-align: left;
+  font-family: Helvetica;
+}
+.introBut{
+  border: 2px solid #1b63ac;
+  padding: 10px 10px;
+  background-color: #1b63ac;
+  color: white;
+  border-radius: 5px;
+}
+.introImg{
+  text-align: center;
+  /* border: 2px solid red; */
+}
+
+/* services styling */
+.services{
+  background-color: #1b63ac;
+  min-height: 300px;
+  padding: 80px 100px;
+  /* padding-bottom: 100px; */
+}
+.services h1{
+  
+}
+
+.singleService{
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+}
+.card-img{
+  width: 400px;
+  margin: 10px;
+}
+.card-img img{
+  width: 50%;
+}
+
+/* Team styling */
+.team{
+  color: white;
+  padding: 50px 50px;
+}
+.team h1{
+  color: #1b63ac;
+  margin-bottom: 100px;
+}
+.team .teamMember{
+  color: black;
+}
+.team .teamMember img{
+  width: 100px;
+  border-radius: 50%;
+  padding-bottom: 20px;
+  /* border: 1px solid #1b63ac; */
+}
+
+
+/* parnter styling */
+.partner{
+  min-height: 300px;
+  color: black;
+  padding: 30px 100px;
+}
+.partner p{
+  padding-top: 50px;
+}
+.bClient{
+
+}
+.bClient a{
+  color: black;
+}
+.bClient a:hover{
+  color: black;
+  font-weight: 700;
+}
+.crouel-p-but{
+  color: black;
+}
+.carousel-inner-partner{
+  /* margin: 0 50px; */
+}
+
+
+/* Newsletter styling */
+.newsletter{
+  margin: 0 auto;
+  /* text-align: center; */
+  padding: 0 200px;
+  /* border-radius: 1px solid green; */
+}
+.newsIn{
+  /* border: 1px solid red; */
+  margin-bottom: 20px;
+}
+.newsIn input{
+  width: 100%;
+  /* height: 100%; */
+  height: 40px;
+  border: 2px solid rgba(0, 128, 0, 0);
+  padding: 0;
+  margin: 0;
+  /* text-align: center; */
+}
+.newsIn input:focus{
+  border: 0px;
+}
+.newsIn input[type=text]{
+  padding-left: 10px;
+}
+.newsIn input{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.newSubBut{
+  margin-bottom: 20px;
+}
+.newSubBut button{
+  width: 100%;
+  height: 40px;
+  border: 2px solid rgba(0, 128, 0, 0);
+}
+.wHr{
+  margin: 50px 0;
+}
+.suCheck{
+  color: rgb(5, 255, 5);
+}
+
+
+
+/* footer styling */
+.footer{
+  background-color: #1b63ac;
+  min-height: 300px;
+  padding: 30px 0px;
+}
+.footer .row{
+  padding-top: 25px;
+  text-align: left;
+}
+.footer .fAbout{
+  /* border: 1px solid red; */
+  /* padding: 0 50px; */
+}
+.footer .fContact{
+  /* border: 1px solid red; */
+  /* padding: 0 50px; */
+}
+
+/* chat styling */
+.chat{
+  /* position: absolute; */
+  position: absolute;
+  z-index: 2;
+  width: 25%;
+  bottom: 0;
+  right: 0;
+  border: 1px solid red;
+  margin-right: 15px;
+  background-color: #e9e9e9;
+  color: black;
+  border: 2px solid white;
+  border-bottom: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.userStyle{
+  background-color: #1b63ac;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 15px;
+  margin: 5px 0;
+}
+.botStyle{
+  background-color: white;
+  padding: 5px 20px;
+  border-radius: 15px;
+  margin: 5px 0;
+}
+
+.chatColl{
+  width: 100%;
+  text-align: left;
+  background-color: #1b63ac;
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+}
+.chatBox{
+  border: 2px solid red;
+  background-color: red;
+}
+.messages{
+  padding: 5px;
+  height: 70vh;
+  overflow: scroll;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.messageIn{
+  width: 80%;
+  border: 2px solid rgb(199, 199, 199);
+  border-radius: 0px;
+}
+.messageSend{
+  width:20%;
+  background-color: #1b63ac;
+  color: white;
+  border: 2px solid #1b63ac;
+}
+.aLeft{
+  text-align: left;
+}
+.aRight{
+  text-align: right;
+}
+.hide{
+  display: none;
+}
+
+
+/* ------------------------------------------------------------- */
+
+/* -------------------------------Media Query------------------------------- */
+
+
+@media only screen and (max-width: 768px) {
+
+
+  .mainNav{
+    background-color: #1b63ac;
+    padding-left: 0px;
+    padding-right: 00px;
+    text-align: center;
+  }
+  .intro{
+    padding: 0 5px;
+  }
+  .intro img{
+    width: 100%;
+    text-align: center;
+  }
+  .carousel{
+    margin: 20px 10px;
+  }
+  .services{
+    background-color: #1b63ac;
+    min-height: 300px;
+    padding: 0px 5px;
+  }
+  .partner{
+    min-height: 300px;
+    color: black;
+    padding: 30px 5px;
+  }
+  /* Newsletter styling */
+  .newsletter{
+    margin: 0 auto;
+    /* text-align: center; */
+    padding: 0 20px;
+    /* border-radius: 1px solid green; */
+  }
+
+  .footer{
+    background-color: #1b63ac;
+    min-height: 300px;
+    padding: 30px 10px;
+  }
+  
+  .chat{
+    /* position: absolute; */
+    position: absolute;
+    z-index: 2;
+    width: 40%;
+    bottom: 0;
+    right: 0;
+    border: 1px solid red;
+    margin-right: 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
+
+
+/* @media only screen and (max-width: 300px) {
+  .mainNav{
+    background-color: #1b63ac;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .carousel{
+    margin: 20px 10px;
+  }
+  .services{
+    background-color: #1b63ac;
+    min-height: 300px;
+    padding: 30px 10px;
+  }
+  .partner{
+    min-height: 300px;
+    color: black;
+    padding: 30px 10px;
+  }
+  .newsletter{
+    margin: 0 auto;
+    padding: 0 10px;
+    border: 1px solid red;
+  }
+
+  .footer{
+    background-color: #1b63ac;
+    min-height: 300px;
+    padding: 30px 10px;
+  }
+}  */
+
+@media only screen and (max-width: 768px) {
+  .mainNav{
+    background-color: #1b63ac;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .carousel{
+    margin: 20px 10px;
+  }
+  .services{
+    background-color: #1b63ac;
+    min-height: 300px;
+    padding: 30px 10px;
+  }
+  .partner{
+    min-height: 300px;
+    color: black;
+    padding: 30px 10px;
+  }
+  .newsletter{
+    margin: 0 auto;
+    /* text-align: center; */
+    padding: 0 10px;
+  }
+
+  
+  .chat{
+    /* position: absolute; */
+    position: absolute;
+    z-index: 2;
+    width: 50%;
+    bottom: 0;
+    right: 0;
+    border: 1px solid red;
+    margin-right: 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
+@media only screen and (max-width: 992px) {
+
+
+  .mainNav{
+    background-color: #1b63ac;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .carousel{
+    margin: 20px 50px;
+  }
+  .services{
+    background-color: #1b63ac;
+    min-height: 300px;
+    padding: 30px 50px;
+  }
+  .partner{
+    min-height: 300px;
+    color: black;
+    padding: 30px 50px;
+  }
+  .newsletter{
+    margin: 0 auto;
+    /* text-align: center; */
+    padding: 0 50px;
+  }
+
+  
+  .chat{
+    /* position: absolute; */
+    position: absolute;
+    z-index: 2;
+    width: 30%;
+    bottom: 0;
+    right: 0;
+    border: 1px solid red;
+    margin-right: 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+  .mainNav{
+    background-color: #1b63ac;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .carousel{
+    margin: 20px 10px;
+  }
+  .services{
+    background-color: #1b63ac;
+    min-height: 300px;
+    padding: 30px 10px;
+  }
+  .partner{
+    min-height: 300px;
+    color: black;
+    padding: 30px 10px;
+  }
+  .newsletter{
+    margin: 0 auto;
+    /* text-align: center; */
+    padding: 0 20px;
+  }
+
+  .chat{
+    /* position: absolute; */
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    border: 1px solid red;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
+/* @media only screen and (max-width: 12000px) {
+
+
+  .mainNav{
+    background-color: #1b63ac;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .carousel{
+    margin: 20px 50px;
+  }
+  .services{
+    background-color: #1b63ac;
+    min-height: 300px;
+    padding: 30px 80px;
+  }
+  .partner{
+    min-height: 300px;
+    color: black;
+    padding: 30px 80px;
+  }
+  .newsletter{
+    margin: 0 auto;
+    padding: 0 200px;
+  }
+  
+  .chat{
+    position: absolute;
+    z-index: 2;
+    width: 30%;
+    bottom: 0;
+    right: 0;
+    border: 1px solid red;
+    margin-right: 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  } */
+/* } */
+
