@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/reactchatbotwebapp/static/css/main.271413aa.chunk.css",
-    "main.js": "/reactchatbotwebapp/static/js/main.73053f2d.chunk.js",
-    "main.js.map": "/reactchatbotwebapp/static/js/main.73053f2d.chunk.js.map",
-    "runtime-main.js": "/reactchatbotwebapp/static/js/runtime-main.540017dd.js",
-    "runtime-main.js.map": "/reactchatbotwebapp/static/js/runtime-main.540017dd.js.map",
-    "static/js/2.4c64658a.chunk.js": "/reactchatbotwebapp/static/js/2.4c64658a.chunk.js",
-    "static/js/2.4c64658a.chunk.js.map": "/reactchatbotwebapp/static/js/2.4c64658a.chunk.js.map",
-    "static/js/3.5522b066.chunk.js": "/reactchatbotwebapp/static/js/3.5522b066.chunk.js",
-    "static/js/3.5522b066.chunk.js.map": "/reactchatbotwebapp/static/js/3.5522b066.chunk.js.map",
+    "main.css": "/reactchatbotwebapp/static/css/main.4d620aec.chunk.css",
+    "main.js": "/reactchatbotwebapp/static/js/main.57eb3cfd.chunk.js",
+    "main.js.map": "/reactchatbotwebapp/static/js/main.57eb3cfd.chunk.js.map",
+    "runtime-main.js": "/reactchatbotwebapp/static/js/runtime-main.ed690318.js",
+    "runtime-main.js.map": "/reactchatbotwebapp/static/js/runtime-main.ed690318.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/reactchatbotwebapp/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.abcf2630.chunk.js": "/reactchatbotwebapp/static/js/2.abcf2630.chunk.js",
+    "static/js/2.abcf2630.chunk.js.map": "/reactchatbotwebapp/static/js/2.abcf2630.chunk.js.map",
+    "static/js/3.47c4a680.chunk.js": "/reactchatbotwebapp/static/js/3.47c4a680.chunk.js",
+    "static/js/3.47c4a680.chunk.js.map": "/reactchatbotwebapp/static/js/3.47c4a680.chunk.js.map",
     "index.html": "/reactchatbotwebapp/index.html",
-    "static/css/main.271413aa.chunk.css.map": "/reactchatbotwebapp/static/css/main.271413aa.chunk.css.map",
-    "static/js/2.4c64658a.chunk.js.LICENSE.txt": "/reactchatbotwebapp/static/js/2.4c64658a.chunk.js.LICENSE.txt",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/reactchatbotwebapp/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.4d620aec.chunk.css.map": "/reactchatbotwebapp/static/css/main.4d620aec.chunk.css.map",
+    "static/js/2.abcf2630.chunk.js.LICENSE.txt": "/reactchatbotwebapp/static/js/2.abcf2630.chunk.js.LICENSE.txt",
     "static/media/Alii.9873450c.jfif": "/reactchatbotwebapp/static/media/Alii.9873450c.jfif",
     "static/media/bereal.db8856b4.png": "/reactchatbotwebapp/static/media/bereal.db8856b4.png",
     "static/media/help.2e4bf21f.png": "/reactchatbotwebapp/static/media/help.2e4bf21f.png",
@@ -24,9 +26,10 @@
     "static/media/software.76504370.png": "/reactchatbotwebapp/static/media/software.76504370.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.540017dd.js",
-    "static/js/2.4c64658a.chunk.js",
-    "static/css/main.271413aa.chunk.css",
-    "static/js/main.73053f2d.chunk.js"
+    "static/js/runtime-main.ed690318.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.abcf2630.chunk.js",
+    "static/css/main.4d620aec.chunk.css",
+    "static/js/main.57eb3cfd.chunk.js"
   ]
 }
