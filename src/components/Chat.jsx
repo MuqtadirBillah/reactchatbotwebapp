@@ -98,7 +98,7 @@ function Chat(){
     }
 
     const ROOT_CSS = css({
-        height: "80vh",
+        height: "70vh",
         width: "100%"
     });
 
