@@ -289,21 +289,22 @@ input:focus{
 }
 .aLeft{
   text-align: left;
-  padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 20px;
   margin-top: 10px;
   /* border: 1px solid red; */
-}
-.aLeft h6{
-  color: #1b63ac;
-  line-height: 5px;
+  margin-left: 10px;
 }
 .aRight{
   text-align: right;
   margin-bottom: 20px;
   margin-top: 10px;
   /* border: 1px solid red; */
+  margin-right: 10px;
+}
+.aRight h6{
+  color: #1b63ac;
+  line-height: 5px;
 }
 .hide{
   display: none;

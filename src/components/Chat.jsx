@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { css } from '@emotion/css';
 import ScrollToBottom from 'react-scroll-to-bottom';
 import axios from "axios";
 import help from "../images/help.png";
@@ -51,7 +52,7 @@ function Chat(){
         messages.push({
             user: "User",
             message: message,
-            align: "aLeft",
+            align: "aRight",
             style: "userStyle"
         });
         // axios.post('http://localhost:5000/bot', {message}
@@ -61,7 +62,7 @@ function Chat(){
             messages.push({
                 user: "Bot",
                 message: response.data,
-                align: "aRight",
+                align: "aLeft",
                 style: "botStyle"
             });
             console.log(messages);
@@ -96,13 +97,19 @@ function Chat(){
         audioTune.play();
     }
 
+    const ROOT_CSS = css({
+        height: 600,
+        width: "100%"
+    });
+
 
     return(
         <div className="chat">
             
             <button onClick={olick} className="chatColl">Chat</button>
             <div className="chatBox" className={but}>
-                <div className="messages" display="none">
+                <ScrollToBottom className={ROOT_CSS+" messages"} display="none" className={ROOT_CSS}>
+
                     <img src={help} style={{textAlign:"center", width: "200px", height: "200px"}} alt="" />
 
                     {messages.map(({user, message, align, style, index})=>{     
@@ -113,7 +120,8 @@ function Chat(){
                             </div>
                         );
                     })}
-                </div>
+
+                </ScrollToBottom>
                 
                 <div className="messageControls">
                     <input type="text" onKeyPress={(event)=>event.key==="Enter" ? post() : console.log("Enter not pressed")} onChange={(e)=>{setMessage(e.target.value)}} id="inn" className="messageIn" placeholder="write you message" value={message} />

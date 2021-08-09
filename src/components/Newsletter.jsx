@@ -29,7 +29,7 @@ function Newsletter(){
     }
 
     return(
-        <div className="newsletter">
+        <div className="newsletter" data-aos="zoom-in-up">
             <h1>Subscribe to Our Newsletter</h1>
             <div className="container=fluid">
                 <div className="row justify-content-center">
